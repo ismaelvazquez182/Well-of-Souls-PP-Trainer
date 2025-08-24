@@ -11,7 +11,7 @@ Raygui (https://github.com/raysan5/raygui)
 (Recommended) VCPKG (https://github.com/microsoft/vcpkg)
 
 ### Installation Guide
-1. Download and run the raylib installed from the raylib website.
+1. Download and run the raylib installer from the raylib website.
 
 2. Use vcpkg to integrate Raylib into your development environment.
 ```
