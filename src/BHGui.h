@@ -13,7 +13,7 @@ private:
 	const unsigned int m_window_width;
 	const unsigned int m_window_height;
 
-	const std::string m_button_text{ "GROW MY PP" };
+	const std::string m_button_text{ "Max GP/PP" };
 	const unsigned int m_button_width{ 400 };
 	const unsigned int m_button_height{ 100 };
 	const unsigned int m_button_font_size{ 48 };
