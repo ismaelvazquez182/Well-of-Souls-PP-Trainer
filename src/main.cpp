@@ -10,6 +10,8 @@ void grow_pp()
 	const static int pp_value = 100000;
 	pm.WriteInt(reinterpret_cast<DWORD>(&character->NegativePP), -pp_value);
 	pm.WriteInt(reinterpret_cast<DWORD>(&character->PP), pp_value);
+	pm.WriteInt(reinterpret_cast<DWORD>(&character->NegativeGoldPieces), -pp_value * 10);
+	pm.WriteInt(reinterpret_cast<DWORD>(&character->GoldPieces), pp_value * 10);
 }
 
 int WINAPI wWinMain(
@@ -26,7 +28,7 @@ int WINAPI wWinMain(
 
 	character = (Character*)character_pointer;
 
-	BHGui gui{ "Bobby Hill's PP Grower", 450, 200 };
+	BHGui gui{ "Bobby Hill's Gold and PP Trainer", 450, 200 };
 	gui.Run(grow_pp);
 	return 0;
 }
