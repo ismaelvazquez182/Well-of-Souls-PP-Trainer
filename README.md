@@ -1,5 +1,5 @@
 # Well-of-Souls-PP-Trainer
-GUI application that gives your character 100k participation points (PP) in the game Well of Souls by Synthetic Reality (http://www.synthetic-reality.com).
+GUI application that gives your character 100k participation points (PP) and 1,000,000 gold pieces (GP) in the game Well of Souls by Synthetic Reality (http://www.synthetic-reality.com). 
 
 ![Screenshot](https://raw.githubusercontent.com/ismaelvazquez182/Well-of-Souls-PP-Trainer/refs/heads/main/screenshot.png)
 
